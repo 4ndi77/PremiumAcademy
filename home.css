@@ -1,0 +1,74 @@
+/* #17152f, #0b0a17 ,bab9c1 ,fafafa*/
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #17152f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: #0b0a17;
+    height: 80px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav a{
+    background-color: #0b0a17;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 18px;
+    padding: 0 30px;
+}
+.logo{
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+.firsth1{
+    color: #fafafa;
+    font-size: 3.2rem;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-image{
+    width: 1100px;
+    display: flex;
+    margin-left: 400px;
+}
+.firstpara{
+    color: #bab9c1;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+.secondh1{
+    color: #fafafa;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdh1{
+    color: #fafafa;
+    display: flex;
+    margin-left: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.secondpara{
+    color: #bab9c1;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    text-align:left;
+    line-height: 1.8;
+}
