@@ -11,7 +11,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 nav a{
     background-color: #0b0a17;
@@ -29,3 +28,39 @@ nav a{
 nav a:hover{
     color: #cccccc;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 120px;
+}
+.first-h1{
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    color: #bab9c1;
+    display: flex;
+    height: auto;
+    width: 251px;
+}
+/*  PJES GABIM
+.image2{
+    display: flex;
+    align-items: center;
+    background-color: #0b0a17;
+    border: 2px solid white;
+}
+.second-h1{
+    background-color: #0b0a17;
+    color: #fafafa;
+}
+.para2{
+    background-color: #0b0a17;
+    color: #bab9c1;
+}
+.img{
+    display: flex;
+}*/
