@@ -108,6 +108,10 @@ nav a:hover{
     line-height: 3;
     color: #bab9c1;
 }
+.video{
+    display: flex;
+    justify-content: center;
+}
 .curriculums123{
     display: flex;
     justify-content: space-between;
