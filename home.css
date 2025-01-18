@@ -2,7 +2,6 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #17152f;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav{
@@ -28,7 +27,31 @@ nav a{
     font-style: italic;
 }
 nav a:hover{
-    color: #cccccc;
+    color: white;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.sign{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #238636;
+    border: 2px solid #238636;
+}
+.sign:hover{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #238636;
+    border: 2px solid #238636;
+}
+.section{
+    background-color: #17152f;
 }
 .firsth1{
     color: #fafafa;
@@ -123,8 +146,9 @@ nav a:hover{
     justify-self: center;
     width: 200px;
     height: 50px;
-    background-color: #0b0a17;
+    background-color: #238636;
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 .btn-text{
     display: flex;
@@ -133,12 +157,20 @@ nav a:hover{
     padding-top: 5px;
     font-size: 32px;
     text-decoration: none;
-    background-color: #0b0a17;
     color: #fafafa;
     border-radius: 15px;
 }
+.apply-button:hover{
+    display: flex;
+    justify-self: center;
+    width: 200px;
+    height: 50px;
+    background-color: #5CBF7A;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
 .footer {
-    background-color: #17152f;
+    background-color:#0b0a17;
     color: #ecf0f1;
     padding: 20px 10px;
     text-align: center;

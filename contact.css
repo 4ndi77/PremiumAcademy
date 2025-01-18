@@ -1,30 +1,143 @@
+
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #17152f;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav{
-    background-color: #0b0a17;
-    height: 80px;
     padding: 0 24px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0b0a17;
+    width: 100%;
+}
+.logo{
+    background-color: #0b0a17;
+    font-size: 30px;
+    color: #fafafa;
+    font-weight: bold;
 }
 nav a{
     background-color: #0b0a17;
-    text-decoration: none;
     color: #fafafa;
     font-size: 18px;
     padding: 0 30px;
-}
-.logo{
-    color: #fafafa;
-    font-weight: bold;
-    font-size: 30px;
-    font-style: italic;
+    text-decoration: none;
 }
 nav a:hover{
-    color: #cccccc;
+    color: white;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.sign{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #238636;
+    border: 2px solid #238636;
+}
+.sign:hover{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #238636;
+    border: 2px solid #238636;
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(pexels-felixmittermeier-956999.jpg);
+    background-size:cover ;
+}
+.wrapper{
+    width: 420px;
+    color: #fafafa;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: solid 2px rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fafafa;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fafafa;
+}
+.input-box  i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0px 15px;
+}
+.remember-forgot label input{
+    accent-color: #fafafa;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #fafafa;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.button{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+.register-link p a{
+    color:#fafafa;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
 }
