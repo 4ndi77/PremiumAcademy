@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
 }
 nav{
     background-color: #0b0a17;
@@ -68,22 +69,6 @@ body{
     height: auto;
     width: 251px;
 }
-/*  PJES GABIM
-.image2{
-    display: flex;
-    align-items: center;
-    background-color: #0b0a17;
-    border: 2px solid white;
-}
-.second-h1{
-    background-color: #0b0a17;
-    color: #fafafa;
-}
-.para2{
-    background-color: #0b0a17;
-    color: #bab9c1;
-}
-.img{
-    display: flex;
-}*/
+
+
 
