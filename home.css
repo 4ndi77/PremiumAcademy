@@ -24,7 +24,6 @@ nav a{
     color: #fafafa;
     font-weight: bold;
     font-size: 30px;
-    font-style: italic;
 }
 nav a:hover{
     color: white;
@@ -47,8 +46,8 @@ nav a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    background-color: #238636;
-    border: 2px solid #238636;
+    background-color: #5CBF7A;
+    border: 2px solid #5CBF7A;
 }
 .section{
     background-color: #17152f;
@@ -147,7 +146,7 @@ nav a:hover{
     width: 200px;
     height: 50px;
     background-color: #238636;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 .btn-text{
@@ -166,7 +165,7 @@ nav a:hover{
     width: 200px;
     height: 50px;
     background-color: #5CBF7A;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 .footer {
